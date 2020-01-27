@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+delegate float rate_of_change(float x, float y);
 public class Projectile : MonoBehaviour
 {
     public float rotationRadius = 10;
@@ -99,7 +100,31 @@ public class Projectile : MonoBehaviour
         oldAcceleration = newAcceleration;
     }
 
+    void SimulateUsingEulerMethod()
+    {
+        //Parameters
+        //Dx=Dt=Time.deltaTime
+        float x0 = 0;
+        float y0 = 0;
+        //Y'=f(xi,yi)
+        //f(x,y)=2*x
+        //Euler Method
+        float Xt = transform.position.x + Time.deltaTime;
+        float Yt = transform.position.y + Time.deltaTime * (2f * Xt);
 
+        Vector3 newPos = new Vector3(Xt, Yt, 0);
+
+        this.transform.position = newPos;
+        Vector3 newVel = (newPos - oldPos) / Time.deltaTime;
+        Vector3 newAcceleration = (newVel - oldVelocity) / Time.deltaTime;
+        oldPos = newPos;
+        oldVelocity = newVel;
+        oldAcceleration = newAcceleration;
+
+
+
+
+    }
 
 
     private void FixedUpdate()
@@ -109,7 +134,9 @@ public class Projectile : MonoBehaviour
         {
             //SimulateCircularMovement();
             //SimulateEllipticMovement();
-            SimulateProjectileMovement();
+            //SimulateProjectileMovement();
+            SimulateUsingEulerMethod();
+
 
 
         }

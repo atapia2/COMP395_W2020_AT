@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E20E5B4E-17F6-DB41-22B6-37AADC56D55E}</ProjectGuid>
+    <ProjectGuid>{4E37D7C5-783E-AE5E-72FA-FF0EF0D7418C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,40 +66,40 @@
     <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\ProjectileViaPhysics.cs" />
     <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/atapia/Downloads/395/ClassWork_Jan15_17/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/atapia/repos/COMP395_W2020_AT/ClassWork_Jan15_17_22/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2020.1.0a7/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
